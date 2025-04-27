@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('laptop.jpg') no-repeat center center/cover;
+    background-color: #1a2421;
+    color: rgb(255, 255, 255);
+    background-blend-mode: overlay;
+    opacity: 0.95;
+    padding: 0 80px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.hire-btn {
+    padding: 10px 20px;
+    background: #00c896;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 50px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-text h2 {
+    font-size: 60px;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: white;
+    -webkit-text-stroke: 2px #00c896;
+
+
+
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #ccc;
+}
+
+.hero-buttons button {
+    margin-right: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero-buttons .hire-me {
+    background: #00c896;
+    color: white;
+}
+
+.hero-buttons .portfolio {
+    background: white;
+    color: #333;
+}
+
+.hero-image img {
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    transform: translateX(-70px);
+
+}
